@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BatchParserApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BatchParserApplication.class, args);
-	}
+  public static void main(String[] args) {
+    System.exit(SpringApplication.exit(SpringApplication.run(BatchParserApplication.class, args)));
+  }
 
 }
